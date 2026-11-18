@@ -309,3 +309,11 @@ footer {
   border-radius: 8px;
 }
 
+@media (max-width: 600px) {
+  .membership-page .plans th,
+  .membership-page .plans td {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+}
+
