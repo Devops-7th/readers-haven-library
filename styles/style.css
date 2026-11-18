@@ -373,3 +373,27 @@ footer {
   }
 }
 
+/* ===== Services Page (Member 3 - Hafiz Muhammad) ===== */
+.services-page .card {
+  border-top: 5px solid var(--amber);
+}
+.services-page .card h3 {
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+.services-page .timing {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #f4efe3;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  color: var(--navy-dark);
+}
+
+@media (max-width: 600px) {
+  .services-page .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+
