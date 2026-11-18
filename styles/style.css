@@ -365,3 +365,11 @@ footer {
   background: var(--navy-dark);
 }
 
+
+@media (max-width: 600px) {
+  .contact-page .feedback-form {
+    max-width: 100%;
+    padding: 16px;
+  }
+}
+
