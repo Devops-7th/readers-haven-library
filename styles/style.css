@@ -390,4 +390,10 @@ footer {
   color: var(--navy-dark);
 }
 
+@media (max-width: 600px) {
+  .services-page .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+
 
