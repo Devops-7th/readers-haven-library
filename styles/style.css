@@ -317,3 +317,51 @@ footer {
   }
 }
 
+/* ===== Contact Page (Member 4 - Nimrah) ===== */
+.contact-page .card h3 {
+  color: var(--navy);
+  margin-bottom: 4px;
+}
+.contact-page .form-title {
+  margin-top: 34px;
+}
+.contact-page .feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 480px;
+  background: #f4efe3;
+  padding: 22px;
+  border-radius: var(--radius);
+}
+.contact-page .feedback-form label {
+  font-weight: 600;
+}
+.contact-page .feedback-form input,
+.contact-page .feedback-form textarea {
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 1rem;
+}
+.contact-page .feedback-form input:focus,
+.contact-page .feedback-form textarea:focus {
+  outline: 2px solid var(--amber);
+  border-color: var(--navy);
+}
+.contact-page .feedback-form button {
+  margin-top: 8px;
+  padding: 12px;
+  background: var(--navy);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.contact-page .feedback-form button:hover {
+  background: var(--navy-dark);
+}
+
