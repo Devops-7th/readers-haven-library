@@ -228,3 +228,40 @@ footer {
     font-size: 1.4rem;
   }
 }
+/* ===== Collections Page (Member 1 - Ali Imtiaz) ===== */
+.collections-page .grid-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.collections-page .card h3 {
+  color: var(--navy);
+  border-bottom: 2px solid var(--amber);
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+}
+
+.collections-page .card ul {
+  list-style: none;
+}
+
+.collections-page .card li {
+  padding: 8px 0;
+  border-bottom: 1px dashed var(--border);
+  font-weight: 600;
+}
+
+.collections-page .card li:last-child {
+  border-bottom: none;
+}
+
+.collections-page .author {
+  display: block;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+@media (max-width: 600px) {
+  .collections-page .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
