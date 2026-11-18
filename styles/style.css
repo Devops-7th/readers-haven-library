@@ -265,3 +265,47 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+
+
+
+
+/* ===== Membership Page (Member 2 - Muhammad Abdullah) ===== */
+.membership-page .table-wrap {
+  overflow-x: auto;
+  margin: 16px 0 28px;
+}
+.membership-page .plans {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 560px;
+}
+.membership-page .plans th {
+  background: var(--navy);
+  color: #fff;
+  text-align: left;
+  padding: 12px 14px;
+}
+.membership-page .plans td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--border);
+}
+.membership-page .plans tbody tr:nth-child(even) {
+  background: #faf6ee;
+}
+.membership-page .plans tbody td:first-child {
+  font-weight: 700;
+  color: var(--navy);
+}
+.membership-page .plans tbody td:nth-child(2) {
+  font-weight: 700;
+  color: #a86a00;
+}
+.membership-page .note {
+  margin-top: 12px;
+  padding: 12px 16px;
+  background: #fdf3df;
+  border-left: 5px solid var(--amber);
+  border-radius: 8px;
+}
+
